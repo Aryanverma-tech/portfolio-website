@@ -45,7 +45,7 @@ const ProjectCard = ({ projectName, workedOn, technologies, link, projectDescrip
                 }
 
               </div>
-              <p className='text-[#fff] text-[16px] sm:text-[17px] font-medium'>Technologies I have used</p>
+              
               <div className='flex items-center flex-wrap gap-x-2 gap-y-3 my-4 lg:max-h-[160px] w-[100%] sm:w-[86%] lg:w-[100%]'>
                 {
                   technologies.map((tech) => {
@@ -59,12 +59,7 @@ const ProjectCard = ({ projectName, workedOn, technologies, link, projectDescrip
                 }
               </div>
               <div className=''>
-                <button className='mt-3'>
-                  <a target='_blanck' href={link} className='text-[#fff] font-semibold text-[20.5px] sm:text-[23px] flex items-center gap-x-2 bg-[#fff] bg-opacity-10 hover:bg-[#fff] hover:text-[#000] transition duration-300 border-[#fff] border-[1.4px] py-2 px-5 rounded-[32px]'>
-                    <IoIosLink className='text-[28px]' />
-                    Go To {projectName}
-                  </a>
-                </button>
+                
               </div>
             </div>
           </div>

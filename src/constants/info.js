@@ -6,12 +6,10 @@ import redux from '../assets/redux.png';
 import node from '../assets/node.png';
 import express from '../assets/express.png';
 import mongodb from '../assets/mongodb.png';
-import tailwind from '../assets/tailwindcss.svg';
-import jwt from '../assets/jwt.svg';
-import socketio from '../assets/socketio.svg';
-import oauth from '../assets/oauth.svg';
-import chat from '../assets/chat.svg';
-import blogging from '../assets/blogging.svg';
+import wonderlust from '../assets/wonderlust.png';
+import fooddelivery from '../assets/fooddelivey.png';
+import Nutrifit from '../assets/Nutrifit.png';
+import weather from '../assets/weather.png';
 import javascript from '../assets/javascript.png';
 import git from '../assets/git.png';
 import youtube from '../assets/youtube.svg';
@@ -20,25 +18,10 @@ import java from '../assets/java.png';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 
-import typescript from '../assets/typescript.png';
 
-import aws from '../assets/aws.svg';
-import postman from '../assets/postman.svg';
 
-import docker from '../assets/docker.png';
 import github from '../assets/github.png';
-
-import nextjs from '../assets/nextjs.svg';
-import redis from '../assets/redis.svg';
-import graphql from '../assets/graphql.svg';
-import zustand from '../assets/zustand.png';
-import python from '../assets/python.png';
-
-import nest from '../assets/nest.svg';
-
-import postgres from '../assets/postgres.png';
 import vscode from '../assets/vscode.svg';
-import notion from '../assets/notion.svg';
 // import tailwind from "../assets/t"
 
 export const nfcInfo = [
@@ -162,37 +145,22 @@ export const experiences = [
 export const projects = [
   {
     id: '1',
-    name: 'RealTime Chat',
-    coverImage: chat,
+    name: 'WonderLust',
+    coverImage: wonderlust,
     workedOn: ['Website'],
     description: [
-      'Real-time chat: users can send and receive messages in real-time',
-      'User authentication: users can sign up, log in, and log out using JWT and Google Auth',
-      'Group creation: users can create chat rooms and invite others to join',
-      'Notifications: users can receive notifications on new messages',
-      'Emojis: users can send and receive emojis in messages',
-      ' Profile page where users can update their avatar and display name.',
-      'Users can create a room to chat with others.',
-      ' Search functionality.',
-      'Responsive design: the website is optimized for different screen sizes and devices',
+      'Developed ”Wonderlust,” a comprehensive hostel booking platform utilizing Node.js, Express.js, and MongoDB. Designed to provide seamless hostel booking experiences worldwide, the project showcases my proficiency in backend development and database management within the MERN stack. Implemented features include user authentication, hostel listings, booking functionalities, and robust data storage mechanisms, highlighting my ability  to deliver scalable and user-centric web applications.',
+      
+      
     ],
     technologies: [
       {
         logo: javascript,
         name: 'Javascript',
       },
-      {
-        logo: react,
-        name: 'React.js',
-      },
-      {
-        logo: redux,
-        name: 'Redux',
-      },
-      {
-        logo: tailwind,
-        name: 'Tailwind CSS',
-      },
+      
+      
+      
 
       {
         logo: node,
@@ -206,36 +174,19 @@ export const projects = [
         logo: mongodb,
         name: 'MongoDB',
       },
-      {
-        logo: socketio,
-        name: 'Socket.io',
-      },
-      {
-        logo: jwt,
-        name: 'JWT',
-      },
-      {
-        logo: oauth,
-        name: 'Google OAuth',
-      },
-      {
-        logo: git,
-        name: 'Git',
-      },
+      
+      
     ],
     link: 'https://talk-time.netlify.app/',
   },
   {
     id: '2',
-    name: 'Blogging Website',
-    coverImage: blogging,
+    name: 'Hunger Hopper',
+    coverImage: fooddelivery,
     description: [
-      'The website offers an intuitive and user-friendly interface for easy navigation and interaction.',
-      'Users can sign up, log in, and log out using JWT',
-      'Users can like, bookmark, follow, and unfollow posts and other users to personalize their experience and engage with content.',
-      'The website is designed to be responsive across various devices and screen sizes, ensuring a seamless browsing experience for users.',
-      'Integrated social sharing functionality allows users to share blog posts and other content across various social media platforms, increasing visibility and reach.',
-      'Profile page where users can update their avatar and display name.',
+      'Developed a dynamic food-delivery website with user-friendly interfaces and responsive design for seamless navigation across devices. Implemented real-time order tracking and payment processing to enhance user experience and streamline the ordering process using React, JavaScript, and CSS.',
+      
+
     ],
     workedOn: ['Website'],
     technologies: [
@@ -246,39 +197,42 @@ export const projects = [
       {
         logo: react,
         name: 'React.js',
+        
       },
-      {
-        logo: node,
-        name: 'Node.js',
-      },
-      {
-        logo: express,
-        name: 'Express.js',
-      },
-      {
-        logo: mongodb,
-        name: 'MongoDB',
-      },
-      {
-        logo: jwt,
-        name: 'JWT',
-      },
-      {
-        logo: git,
-        name: 'Git',
-      },
+      
+      
     ],
     link: 'https://youtu.be/3OosYaPqqdA',
   },
+
+
   {
     id: '3',
-    name: 'Youtube Clone',
+    name: 'Nutrifit',
+    coverImage: Nutrifit,
     description: [
-      'Users can watch videos with smooth and responsive playback, offering a user experience similar to the original YouTube platform.',
-      'The clone includes a robust search functionality, allowing users to discover and explore a vast library of videos based on keywords, categories, and user preferences.',
-      'Tailwind CSS is utilized to create a responsive and visually appealing design, ensuring the application is optimized for various screen sizes and devices.',
+      'Assisted in developing NutriFit, an app that tracks the nutrition of food to promote healthy eating habits. Contributed to the design and implementation of features for logging meals, analyzing nutritional content, and providing personalized recommendations. Utilized technologies such as Kotlin, API integrations, Roboflow, and object detection to enhance functionality and user experience.',
+      
+
     ],
-    coverImage: youtube,
+    workedOn: ['App'],
+    technologies: [
+     
+      
+      
+    ],
+    link: 'https://youtu.be/3OosYaPqqdA',
+  },
+
+  {
+    id: '3',
+    name: 'Weather-App',
+    coverImage: weather,
+    description: [
+      'Crafted a responsive weather application leveraging React.js and Material-UI, seamlessly integrating with a third-party API for real-time weather updates. Implemented user-centric features such as city search, temperature unit toggling, and dynamic weather icons. Utilized React hooks for efficient state management and ensured robust error handling.',
+      
+
+    ],
     workedOn: ['Website'],
     technologies: [
       {
@@ -288,26 +242,18 @@ export const projects = [
       {
         logo: react,
         name: 'React.js',
+        
       },
-      {
-        logo: redux,
-        name: 'Redux',
-      },
-      {
-        logo: tailwind,
-        name: 'Tailwind CSS',
-      },
-      {
-        logo: git,
-        name: 'Git',
-      },
-      {
-        logo: rapid,
-        name: 'Rapid API',
-      },
+      
+     
+      
+      
     ],
-    link: 'https://youtubeclone-farhan.netlify.app',
+    link: 'https://youtu.be/3OosYaPqqdA',
   },
+  
+  
+  
 ];
 
 export const frontend = [
@@ -323,34 +269,16 @@ export const frontend = [
     logo: javascript,
     name: 'Javascript',
   },
-  {
-    logo: typescript,
-    name: 'Typescript',
-  },
+  
   {
     logo: react,
     name: 'React.js',
   },
-  {
-    logo: nextjs,
-    name: 'Next.js',
-  },
-  {
-    logo: react,
-    name: 'React Native',
-  },
-  {
-    logo: redux,
-    name: 'Redux',
-  },
-  {
-    logo: zustand,
-    name: 'Zustand',
-  },
-  {
-    logo: tailwind,
-    name: 'Tailwind CSS',
-  },
+  
+  
+  
+  
+  
 ];
 export const backend = [
   {
@@ -361,44 +289,23 @@ export const backend = [
     logo: express,
     name: 'Express.js',
   },
-  {
-    logo: nest,
-    name: 'Nest.js',
-  },
-  {
-    logo: graphql,
-    name: 'GraphQL',
-  },
+  
+ 
   {
     logo: mongodb,
     name: 'MongoDB',
   },
-  {
-    logo: postgres,
-    name: 'PostgreSQL',
-  },
-  {
-    logo: aws,
-    name: 'AWS',
-  },
-  {
-    logo: redis,
-    name: 'Redis',
-  },
-  {
-    logo: docker,
-    name: 'Docker',
-  },
+  
+  
+  
+  
 ];
 export const other = [
   {
     logo: java,
     name: 'Java',
   },
-  {
-    logo: python,
-    name: 'Python',
-  },
+  
   {
     logo: git,
     name: 'Git',
@@ -407,16 +314,10 @@ export const other = [
     logo: github,
     name: 'Github',
   },
-  {
-    logo: postman,
-    name: 'Postman',
-  },
+  
   {
     logo: vscode,
     name: 'VS Code',
   },
-  {
-    logo: notion,
-    name: 'Notion',
-  },
+  
 ];

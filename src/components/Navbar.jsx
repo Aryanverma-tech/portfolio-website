@@ -32,7 +32,7 @@ function Navbar({ setMode, mode }) {
           <div className='logo'>
             <span className="logo-sides"> &lt;</span>
             <a className='logo-text' href="/">
-              Shakir Farhan
+              Aryan
             </a>
             <span className="logo-sides">/&gt;</span>
           </div>
@@ -70,11 +70,7 @@ function Navbar({ setMode, mode }) {
                   Education
                 </a>
               </li>
-              <li className={liClass}>
-                <a className={anchorStyles} href="#experience">
-                  Experience
-                </a>
-              </li>
+             
               <li className={liClass}>
                 <a className={anchorStyles} href="#contact">
                   Contact
